@@ -1,0 +1,20 @@
+To evaluate the performance of the chunking strategy we can you certain metrices such as relevancy, correctness, token efficiency, cost. 
+let us take an example for each of these metrics 
+
+##Relevancy
+objective --> finding out whether the chunks are relevant to user queries 
+example --> for the query "how can i group dataframe in pandas" , "chunk x is relevant as it discuss about grouping dataframe"
+
+##Correctness 
+objective --> verification of the chunk text and context preservation with the original transcript
+example --> check if chunk x accurately shows the content of original transcript 
+
+##Token efficiency
+objective --> understanding the efficiency of the chunk sizes.
+example --> calculate the average length of chunks and ensure they fall within a predefined range
+
+##Cost
+Objective --> estimating the processing and the storage cost
+example --> calculate the total token count and estimate processing cost as per standard norms
+
+there can be several other metrices too that can help to imporve better that can be learnt by understanding various other factors.
