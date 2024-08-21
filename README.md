@@ -1,6 +1,7 @@
 Here's the information about the files that this repo contains.
 
 As per the assignment the "first task" was to generate the chunks using the transcript provided.
+i had used time stamp based chunking strategy to keep chunks together in a time based parts. 
 for this the access the file named "Chunk_generation.ipynb" . Directly run the ipynb file on either jupyter notebook or colab. 
 Add the path to the folder variable where the transcipts are present and path where you want to save the chunks to variable chunk_folder.
 the folder named chunks have the sample files of the output of Chunk_generation.ipynb
